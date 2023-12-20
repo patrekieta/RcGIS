@@ -1,0 +1,15 @@
+Package: RcGIS
+Type: Package
+Title: Functions for geocoding with arcgis
+Version: 0.1.0
+Author: Patrick Rekieta
+Maintainer: Patrick Rekieta <Patrick.Rekieta@gmail.com>
+Description: Function wrappers to run arcgis python package. Build for TCPH gis team.
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.1)
+Imports:
+    tidyr,
+    reticulate,
+    rstudioapi
